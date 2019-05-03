@@ -1,0 +1,4078 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://webprotege.stanford.edu/project/7Vyof7tFS0xYn3q9yAmHnR"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://webprotege.stanford.edu/project/7Vyof7tFS0xYn3q9yAmHnR">
+    <Prefix name="" IRI="http://webprotege.stanford.edu/project/7Vyof7tFS0xYn3q9yAmHnR"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#Pós-Aborto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7wAVhsL8CW4qpWecTPlkeq"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#possui-uma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Especialidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Classificação_De_Risco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/Técnico_De_Enfermagem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBfzWnNgzqJfyj1eMXheu04"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#faz-dispensação-de"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCiwwnt8hMYpPQW3n2NPrK7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adolescente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#201b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#202a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#103"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acompanhante3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RD0yANs0KqWsm3fvx7ro3KN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Câncer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-de-cuidados"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prescreve"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-puerpério"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-puerpério"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#avalia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-da-faixa-etária"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-da-faixa-etária"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-higienizado-por"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RaGGXiwqWEE4cQghDniY3b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8KZvxSeAE1uUThnBzdqQCE"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Situação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Encaminhamento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acompanhante2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#102"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#201a"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#higieniza-um"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Isolamento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#analisa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#103b"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-medicado-por"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCwsHnkazcLdMJviDTd7Dj1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCFnajknIsNZcGr64aKFsPY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Infantil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente1"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-de-isolamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/Funcionário"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neurologia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#acompanha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/Faxineiro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Especialista"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parada-cardíaca"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBCF9OkGwwYtMUcAAuQBHA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#101"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#103a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#102b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acompanhante5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Traumatologia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-da-especialidade"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#op:numeric-greater-than"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBASQc5DWXevZF18MyDVnqN"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-de-encaminhamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8owYoMAD1tQ7iUi85HhkRK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Masculino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acompanhante4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#101b"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#102a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCZT1weaeaWudxADny7M3cW"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tipo_De_Cuidado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8zH2PU6Fm6APEaV21qCsKv"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-observado-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#observa-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-diagnosticado-por-um"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7N31ukSol7sxxvonZ7EzYZ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#101a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RmRzjCRkaHJex6QdB8ZHdh"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Não_Urgente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/Medicação"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-movido-por"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente6"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#está-em"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-de-atendimento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RC4tWnH5ELWhrffLOvmeaje"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-do-gênero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eletivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R71hnKX1jR0A8uK9EPfpt4G"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-de-permanêcia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pediatria"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-do-gênero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clínico"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cuidados-Mínimos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Suspeita-de-fraturas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCdCUCKjhTiB4aW6WKqi2G4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Longa-Permanência"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-apresentado-por"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCheAq6wTEvRhdnYI9u75VK"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tem-uma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Isolamento-social"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergência"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adulto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#apresenta-uma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico3"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente5"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#atende"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oncologista"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-de-isolamento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Emergência"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-pode-ter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Acompanhante1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tempo_De_Permanência"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pouco_Urgente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente8"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-puerpério"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dermatologia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-avaliado-por"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Desmaio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dermatologista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Idade"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#desocupa-um"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBagIcLSpGT7TaxNpbXndez"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#atende-a-especialidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Homem"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-prescrita-por"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R917ihpsrUkOeav3FMevijo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#caracteriza-uma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8epTLulMSCM72nuxRLjjOK"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBranfH6ouzGMl4AlldYAJN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7y3eCMiVHGCUPaMA5aEiM9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCUkOjyXIxru8yfpAxDKlH7"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#diagnostica-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-associado-a-uma"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-da-especialidade"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aloca"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-analisado-por"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eletivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neurologista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pediatra"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#apresenta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RiGzUkNl1AvJAIwbU2MXep"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pós-Parto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-responsabilidade-do"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pneumologista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R5VuoYmWBpfVdZBc8f2tDr"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-de-encaminhamento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-desocupado-por-um"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCpZDjdcfpJlPqQcxL7A6p7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R9fnjDjRJPbtBWPhtz8nDuW"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-de-permanêcia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cirúrgico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Internação"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-caracterizada-por"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cardiologista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radiologista"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente10"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCnNG3qINkOMRPn2KsZTMly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paciente9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pediatria"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-de-encaminhamento"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#pode-ter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ocupa-um"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8nIV8znRxawo7JRkLhojLU"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-de-permanêcia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RyXESQ8YKh5SD8ptqMMEAf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cardiologia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#medica-um"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Indefinido"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8jrkwcriq18qTARhvzSIaf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-alocado-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-consumido-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-de-cuidados"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Urgente"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-da-faixa-etária"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/Prescrição"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#está-em-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#indica-um"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Médico9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8oK14a1iyon9PZJDdNjZzL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cuidados-Intensivos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gênero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDqATM6JOaJEGplAdD7Za4Q"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puerpério"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-acompanhado-por"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Muito_Urgente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Feminino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mulher"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dá-alta-para"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Emergente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parada-respiratória"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R1Hj1UOVuA6PKPwevQgKhJ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oncologia"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-de-atendimento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#quarto-é-de-atendimento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Enfermeiro1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cuidados-Semi-Intensivos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Traumatologista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RpHN5vsm8cG08PHeVwLezi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8AB9N8HhCrNwsETDWqoKA5"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-responsável-por"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCXYuaw1VXzuIogytgTzVtK"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-feita-em-um"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Generalista"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-ocupado-por-um"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCRMlGWumd5lZSBh7y5yWl8"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#acontece-em-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-de-isolamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RzzdMqcvTYclDeVgpeefl6"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-atribuído-a-um"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Parada-cardio-respiratória"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#leito-é-do-gênero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RzBtUQWKR9o5vWKZkF0iNa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Convulsão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8vzbELvzTrzTunUJAuiavx"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCKLqMi4gYOEaopI9mDxPe8"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#está-em-uma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Giro-Rápido"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RCIU0TZBNdrtHO7jyZSxUtB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R7v6j6vUWKgSUsTGzuvTvRI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RBbRu8qGKztl4y2W0gYTvzr"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#preenche-um"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#recebe-alta-do"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#202"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#203b"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-da-especialidade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Febre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-atendido-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-preenchido-por"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#move-um"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/R8ULdDF78OhGrcjJDoT5awO"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consulta-o"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ambulatorial"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#é-de-cuidados"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#consulta-com"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tem-idade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#203a"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#202b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tipo_De_Atendimento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/RDitmflYlNleQ3n2nlz1VkP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://webprotege.stanford.edu/Rtpmqi6ZY913MhovtxAq7t"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atendimento"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Enfermeiro2"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/Faxineiro"/>
+        <Class IRI="http://webprotege.stanford.edu/Funcionário"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/Funcionário"/>
+        <Class IRI="http://webprotege.stanford.edu/RpHN5vsm8cG08PHeVwLezi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/Medicação"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/Prescrição"/>
+        <Class IRI="http://webprotege.stanford.edu/RBbRu8qGKztl4y2W0gYTvzr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R1Hj1UOVuA6PKPwevQgKhJ"/>
+        <Class IRI="http://webprotege.stanford.edu/RCZT1weaeaWudxADny7M3cW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R5VuoYmWBpfVdZBc8f2tDr"/>
+        <Class IRI="http://webprotege.stanford.edu/RBranfH6ouzGMl4AlldYAJN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R71hnKX1jR0A8uK9EPfpt4G"/>
+        <Class IRI="http://webprotege.stanford.edu/RBbRu8qGKztl4y2W0gYTvzr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+        <Class IRI="http://webprotege.stanford.edu/RiGzUkNl1AvJAIwbU2MXep"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+        <Class IRI="http://webprotege.stanford.edu/RpHN5vsm8cG08PHeVwLezi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7N31ukSol7sxxvonZ7EzYZ"/>
+        <Class IRI="http://webprotege.stanford.edu/RDqATM6JOaJEGplAdD7Za4Q"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7v6j6vUWKgSUsTGzuvTvRI"/>
+        <Class IRI="http://webprotege.stanford.edu/RBranfH6ouzGMl4AlldYAJN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7wAVhsL8CW4qpWecTPlkeq"/>
+        <Class IRI="http://webprotege.stanford.edu/RBranfH6ouzGMl4AlldYAJN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R7y3eCMiVHGCUPaMA5aEiM9"/>
+        <Class IRI="http://webprotege.stanford.edu/RBfzWnNgzqJfyj1eMXheu04"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8AB9N8HhCrNwsETDWqoKA5"/>
+        <Class IRI="http://webprotege.stanford.edu/RBranfH6ouzGMl4AlldYAJN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8KZvxSeAE1uUThnBzdqQCE"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8ULdDF78OhGrcjJDoT5awO"/>
+        <Class IRI="#Situação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8epTLulMSCM72nuxRLjjOK"/>
+        <Class IRI="http://webprotege.stanford.edu/RiGzUkNl1AvJAIwbU2MXep"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8jrkwcriq18qTARhvzSIaf"/>
+        <Class IRI="http://webprotege.stanford.edu/RiGzUkNl1AvJAIwbU2MXep"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8nIV8znRxawo7JRkLhojLU"/>
+        <Class IRI="http://webprotege.stanford.edu/Funcionário"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8oK14a1iyon9PZJDdNjZzL"/>
+        <Class IRI="http://webprotege.stanford.edu/RBfzWnNgzqJfyj1eMXheu04"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8owYoMAD1tQ7iUi85HhkRK"/>
+        <Class IRI="http://webprotege.stanford.edu/RiGzUkNl1AvJAIwbU2MXep"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8vzbELvzTrzTunUJAuiavx"/>
+        <Class IRI="http://webprotege.stanford.edu/RBbRu8qGKztl4y2W0gYTvzr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R8zH2PU6Fm6APEaV21qCsKv"/>
+        <Class IRI="http://webprotege.stanford.edu/Funcionário"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R917ihpsrUkOeav3FMevijo"/>
+        <Class IRI="http://webprotege.stanford.edu/RDqATM6JOaJEGplAdD7Za4Q"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/R9fnjDjRJPbtBWPhtz8nDuW"/>
+        <Class IRI="http://webprotege.stanford.edu/R8zH2PU6Fm6APEaV21qCsKv"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1"/>
+        <Class IRI="http://webprotege.stanford.edu/R8zH2PU6Fm6APEaV21qCsKv"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBASQc5DWXevZF18MyDVnqN"/>
+        <Class IRI="http://webprotege.stanford.edu/RDqATM6JOaJEGplAdD7Za4Q"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBCF9OkGwwYtMUcAAuQBHA"/>
+        <Class IRI="http://webprotege.stanford.edu/RBfzWnNgzqJfyj1eMXheu04"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBagIcLSpGT7TaxNpbXndez"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBbRu8qGKztl4y2W0gYTvzr"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBfzWnNgzqJfyj1eMXheu04"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RBranfH6ouzGMl4AlldYAJN"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RC4tWnH5ELWhrffLOvmeaje"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCFnajknIsNZcGr64aKFsPY"/>
+        <Class IRI="http://webprotege.stanford.edu/RBfzWnNgzqJfyj1eMXheu04"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCIU0TZBNdrtHO7jyZSxUtB"/>
+        <Class IRI="http://webprotege.stanford.edu/RDqATM6JOaJEGplAdD7Za4Q"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCKLqMi4gYOEaopI9mDxPe8"/>
+        <Class IRI="http://webprotege.stanford.edu/RBfzWnNgzqJfyj1eMXheu04"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+        <Class IRI="http://webprotege.stanford.edu/RiGzUkNl1AvJAIwbU2MXep"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCRMlGWumd5lZSBh7y5yWl8"/>
+        <Class IRI="http://webprotege.stanford.edu/RCZT1weaeaWudxADny7M3cW"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCUkOjyXIxru8yfpAxDKlH7"/>
+        <Class IRI="http://webprotege.stanford.edu/RBfzWnNgzqJfyj1eMXheu04"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCXYuaw1VXzuIogytgTzVtK"/>
+        <Class IRI="http://webprotege.stanford.edu/RiGzUkNl1AvJAIwbU2MXep"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCZT1weaeaWudxADny7M3cW"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCdCUCKjhTiB4aW6WKqi2G4"/>
+        <Class IRI="#Situação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCheAq6wTEvRhdnYI9u75VK"/>
+        <Class IRI="http://webprotege.stanford.edu/RBbRu8qGKztl4y2W0gYTvzr"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCiwwnt8hMYpPQW3n2NPrK7"/>
+        <Class IRI="http://webprotege.stanford.edu/RpHN5vsm8cG08PHeVwLezi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCnNG3qINkOMRPn2KsZTMly"/>
+        <Class IRI="http://webprotege.stanford.edu/RBfzWnNgzqJfyj1eMXheu04"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCpZDjdcfpJlPqQcxL7A6p7"/>
+        <Class IRI="http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RCwsHnkazcLdMJviDTd7Dj1"/>
+        <Class IRI="#Situação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RD0yANs0KqWsm3fvx7ro3KN"/>
+        <Class IRI="http://webprotege.stanford.edu/Funcionário"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDitmflYlNleQ3n2nlz1VkP"/>
+        <Class IRI="http://webprotege.stanford.edu/Funcionário"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RDqATM6JOaJEGplAdD7Za4Q"/>
+        <Class IRI="http://webprotege.stanford.edu/RiGzUkNl1AvJAIwbU2MXep"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RaGGXiwqWEE4cQghDniY3b"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RiGzUkNl1AvJAIwbU2MXep"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RmRzjCRkaHJex6QdB8ZHdh"/>
+        <Class IRI="#Situação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RpHN5vsm8cG08PHeVwLezi"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/Rtpmqi6ZY913MhovtxAq7t"/>
+        <Class IRI="http://webprotege.stanford.edu/RBfzWnNgzqJfyj1eMXheu04"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RyXESQ8YKh5SD8ptqMMEAf"/>
+        <Class IRI="#Situação"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RzBtUQWKR9o5vWKZkF0iNa"/>
+        <Class IRI="http://webprotege.stanford.edu/RBranfH6ouzGMl4AlldYAJN"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/RzzdMqcvTYclDeVgpeefl6"/>
+        <Class IRI="http://webprotege.stanford.edu/RBfzWnNgzqJfyj1eMXheu04"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://webprotege.stanford.edu/Técnico_De_Enfermagem"/>
+        <Class IRI="http://webprotege.stanford.edu/R8zH2PU6Fm6APEaV21qCsKv"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ambulatorial"/>
+        <Class IRI="#Atendimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cardiologista"/>
+        <Class IRI="#Especialista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dermatologista"/>
+        <Class IRI="#Especialista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eletivo"/>
+        <Class IRI="#Ambulatorial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergente"/>
+        <Class IRI="#Classificação_De_Risco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Emergência"/>
+        <Class IRI="#Ambulatorial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Encaminhamento"/>
+        <Class IRI="http://webprotege.stanford.edu/R8KZvxSeAE1uUThnBzdqQCE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Especialista"/>
+        <Class IRI="http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Generalista"/>
+        <Class IRI="http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gênero"/>
+        <Class IRI="http://webprotege.stanford.edu/R8KZvxSeAE1uUThnBzdqQCE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Homem"/>
+        <Class IRI="http://webprotege.stanford.edu/RpHN5vsm8cG08PHeVwLezi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Idade"/>
+        <Class IRI="http://webprotege.stanford.edu/R8KZvxSeAE1uUThnBzdqQCE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Internação"/>
+        <Class IRI="#Atendimento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Isolamento"/>
+        <Class IRI="http://webprotege.stanford.edu/R8KZvxSeAE1uUThnBzdqQCE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muito_Urgente"/>
+        <Class IRI="#Classificação_De_Risco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mulher"/>
+        <Class IRI="http://webprotege.stanford.edu/RpHN5vsm8cG08PHeVwLezi"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neurologista"/>
+        <Class IRI="#Especialista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Não_Urgente"/>
+        <Class IRI="#Classificação_De_Risco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oncologista"/>
+        <Class IRI="#Especialista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pediatra"/>
+        <Class IRI="#Especialista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pediatria"/>
+        <Class IRI="http://webprotege.stanford.edu/RDqATM6JOaJEGplAdD7Za4Q"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pneumologista"/>
+        <Class IRI="#Especialista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pouco_Urgente"/>
+        <Class IRI="#Classificação_De_Risco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puerpério"/>
+        <Class IRI="http://webprotege.stanford.edu/R8KZvxSeAE1uUThnBzdqQCE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiologista"/>
+        <Class IRI="#Especialista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tempo_De_Permanência"/>
+        <Class IRI="http://webprotege.stanford.edu/R8KZvxSeAE1uUThnBzdqQCE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tipo_De_Atendimento"/>
+        <Class IRI="http://webprotege.stanford.edu/R8KZvxSeAE1uUThnBzdqQCE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tipo_De_Cuidado"/>
+        <Class IRI="http://webprotege.stanford.edu/R8KZvxSeAE1uUThnBzdqQCE"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Traumatologista"/>
+        <Class IRI="#Especialista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Urgente"/>
+        <Class IRI="#Classificação_De_Risco"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCiwwnt8hMYpPQW3n2NPrK7"/>
+        <NamedIndividual IRI="#Acompanhante1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCiwwnt8hMYpPQW3n2NPrK7"/>
+        <NamedIndividual IRI="#Acompanhante2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCiwwnt8hMYpPQW3n2NPrK7"/>
+        <NamedIndividual IRI="#Acompanhante3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCiwwnt8hMYpPQW3n2NPrK7"/>
+        <NamedIndividual IRI="#Acompanhante4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCiwwnt8hMYpPQW3n2NPrK7"/>
+        <NamedIndividual IRI="#Acompanhante5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idade"/>
+        <NamedIndividual IRI="#Adolescente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idade"/>
+        <NamedIndividual IRI="#Adulto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Especialidade"/>
+        <NamedIndividual IRI="#Cardiologia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tipo_De_Atendimento"/>
+        <NamedIndividual IRI="#Cirúrgico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tipo_De_Atendimento"/>
+        <NamedIndividual IRI="#Clínico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RC4tWnH5ELWhrffLOvmeaje"/>
+        <NamedIndividual IRI="#Convulsão"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tipo_De_Cuidado"/>
+        <NamedIndividual IRI="#Cuidados-Intensivos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tipo_De_Cuidado"/>
+        <NamedIndividual IRI="#Cuidados-Mínimos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tipo_De_Cuidado"/>
+        <NamedIndividual IRI="#Cuidados-Semi-Intensivos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RBagIcLSpGT7TaxNpbXndez"/>
+        <NamedIndividual IRI="#Câncer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Especialidade"/>
+        <NamedIndividual IRI="#Dermatologia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RC4tWnH5ELWhrffLOvmeaje"/>
+        <NamedIndividual IRI="#Desmaio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RC4tWnH5ELWhrffLOvmeaje"/>
+        <NamedIndividual IRI="#Dor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Encaminhamento"/>
+        <NamedIndividual IRI="#Eletivo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Encaminhamento"/>
+        <NamedIndividual IRI="#Emergência"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R9fnjDjRJPbtBWPhtz8nDuW"/>
+        <NamedIndividual IRI="#Enfermeiro1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R9fnjDjRJPbtBWPhtz8nDuW"/>
+        <NamedIndividual IRI="#Enfermeiro2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RC4tWnH5ELWhrffLOvmeaje"/>
+        <NamedIndividual IRI="#Febre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gênero"/>
+        <NamedIndividual IRI="#Feminino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tempo_De_Permanência"/>
+        <NamedIndividual IRI="#Giro-Rápido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gênero"/>
+        <NamedIndividual IRI="#Indefinido"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Idade"/>
+        <NamedIndividual IRI="#Infantil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Isolamento"/>
+        <NamedIndividual IRI="#Isolamento-social"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tempo_De_Permanência"/>
+        <NamedIndividual IRI="#Longa-Permanência"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gênero"/>
+        <NamedIndividual IRI="#Masculino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Generalista"/>
+        <NamedIndividual IRI="#Médico1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCpZDjdcfpJlPqQcxL7A6p7"/>
+        <NamedIndividual IRI="#Médico10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cardiologista"/>
+        <NamedIndividual IRI="#Médico2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dermatologista"/>
+        <NamedIndividual IRI="#Médico3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Neurologista"/>
+        <NamedIndividual IRI="#Médico4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Oncologista"/>
+        <NamedIndividual IRI="#Médico5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pediatra"/>
+        <NamedIndividual IRI="#Médico6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pneumologista"/>
+        <NamedIndividual IRI="#Médico7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Radiologista"/>
+        <NamedIndividual IRI="#Médico8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Traumatologista"/>
+        <NamedIndividual IRI="#Médico9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Especialidade"/>
+        <NamedIndividual IRI="#Neurologia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Especialidade"/>
+        <NamedIndividual IRI="#Oncologia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+        <NamedIndividual IRI="#Paciente1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homem"/>
+        <NamedIndividual IRI="#Paciente1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+        <NamedIndividual IRI="#Paciente10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homem"/>
+        <NamedIndividual IRI="#Paciente10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+        <NamedIndividual IRI="#Paciente2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Paciente2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+        <NamedIndividual IRI="#Paciente3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homem"/>
+        <NamedIndividual IRI="#Paciente3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Urgente"/>
+        <NamedIndividual IRI="#Paciente3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+        <NamedIndividual IRI="#Paciente4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Paciente4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+        <NamedIndividual IRI="#Paciente5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Paciente5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+        <NamedIndividual IRI="#Paciente6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homem"/>
+        <NamedIndividual IRI="#Paciente6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+        <NamedIndividual IRI="#Paciente7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Homem"/>
+        <NamedIndividual IRI="#Paciente7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Urgente"/>
+        <NamedIndividual IRI="#Paciente7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+        <NamedIndividual IRI="#Paciente8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Paciente8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+        <NamedIndividual IRI="#Paciente9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mulher"/>
+        <NamedIndividual IRI="#Paciente9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RC4tWnH5ELWhrffLOvmeaje"/>
+        <NamedIndividual IRI="#Parada-cardio-respiratória"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RC4tWnH5ELWhrffLOvmeaje"/>
+        <NamedIndividual IRI="#Parada-cardíaca"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RC4tWnH5ELWhrffLOvmeaje"/>
+        <NamedIndividual IRI="#Parada-respiratória"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Especialidade"/>
+        <NamedIndividual IRI="#Pediatria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Puerpério"/>
+        <NamedIndividual IRI="#Pós-Aborto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Puerpério"/>
+        <NamedIndividual IRI="#Pós-Parto"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RC4tWnH5ELWhrffLOvmeaje"/>
+        <NamedIndividual IRI="#Suspeita-de-fraturas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Especialidade"/>
+        <NamedIndividual IRI="#Traumatologia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+        <NamedIndividual IRI="#101"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+        <NamedIndividual IRI="#101a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+        <NamedIndividual IRI="#101b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+        <NamedIndividual IRI="#102"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+        <NamedIndividual IRI="#102a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+        <NamedIndividual IRI="#102b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+        <NamedIndividual IRI="#103"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+        <NamedIndividual IRI="#103a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+        <NamedIndividual IRI="#103b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+        <NamedIndividual IRI="#201"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+        <NamedIndividual IRI="#201a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+        <NamedIndividual IRI="#201b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+        <NamedIndividual IRI="#202"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+        <NamedIndividual IRI="#202a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+        <NamedIndividual IRI="#202b"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+        <NamedIndividual IRI="#203"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+        <NamedIndividual IRI="#203a"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+        <NamedIndividual IRI="#203b"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#Suspeita-de-fraturas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#ocupa-um"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#101a"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tem-um"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#Emergência"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-da-especialidade"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#Cardiologia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-da-faixa-etária"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#Adulto"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-de-atendimento"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#Cirúrgico"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-de-cuidados"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#Cuidados-Semi-Intensivos"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-de-isolamento"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#Isolamento-social"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#é-de-permanêcia"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <NamedIndividual IRI="#Giro-Rápido"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#apresenta"/>
+        <NamedIndividual IRI="#Paciente3"/>
+        <NamedIndividual IRI="#Parada-cardíaca"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#101a"/>
+        <NamedIndividual IRI="#101"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#101b"/>
+        <NamedIndividual IRI="#101"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#102a"/>
+        <NamedIndividual IRI="#102"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#102b"/>
+        <NamedIndividual IRI="#102"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#103a"/>
+        <NamedIndividual IRI="#103"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#103b"/>
+        <NamedIndividual IRI="#103"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#201a"/>
+        <NamedIndividual IRI="#201"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#201b"/>
+        <NamedIndividual IRI="#201"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#202a"/>
+        <NamedIndividual IRI="#202"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#202b"/>
+        <NamedIndividual IRI="#202"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#203a"/>
+        <NamedIndividual IRI="#203"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#está-em"/>
+        <NamedIndividual IRI="#203b"/>
+        <NamedIndividual IRI="#203"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tem-idade"/>
+        <NamedIndividual IRI="#Paciente1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">21</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#é-da-faixa-etária"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#é-do-gênero"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#é-puerpério"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#acompanha"/>
+        <ObjectProperty IRI="#é-acompanhado-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aloca"/>
+        <ObjectProperty IRI="#é-alocado-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#analisa"/>
+        <ObjectProperty IRI="#é-analisado-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#apresenta"/>
+        <ObjectProperty IRI="#é-apresentado-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#atende"/>
+        <ObjectProperty IRI="#é-atendido-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#avalia"/>
+        <ObjectProperty IRI="#é-avaliado-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#caracteriza-uma"/>
+        <ObjectProperty IRI="#é-caracterizada-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#consome"/>
+        <ObjectProperty IRI="#é-consumido-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#consulta-com"/>
+        <ObjectProperty IRI="#consulta-o"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#desocupa-um"/>
+        <ObjectProperty IRI="#é-desocupado-por-um"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#diagnostica-um"/>
+        <ObjectProperty IRI="#é-diagnosticado-por-um"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#dá-alta-para"/>
+        <ObjectProperty IRI="#recebe-alta-do"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#higieniza-um"/>
+        <ObjectProperty IRI="#é-higienizado-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#medica-um"/>
+        <ObjectProperty IRI="#é-medicado-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#move-um"/>
+        <ObjectProperty IRI="#é-movido-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#observa-um"/>
+        <ObjectProperty IRI="#é-observado-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ocupa-um"/>
+        <ObjectProperty IRI="#é-ocupado-por-um"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#preenche-um"/>
+        <ObjectProperty IRI="#é-preenchido-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#prescreve"/>
+        <ObjectProperty IRI="#é-prescrita-por"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#é-responsabilidade-do"/>
+        <ObjectProperty IRI="#é-responsável-por"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#acompanha"/>
+        <Class IRI="http://webprotege.stanford.edu/RCiwwnt8hMYpPQW3n2NPrK7"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#acontece-em-um"/>
+        <Class IRI="#Atendimento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aloca"/>
+        <Class IRI="http://webprotege.stanford.edu/R9fnjDjRJPbtBWPhtz8nDuW"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#analisa"/>
+        <Class IRI="http://webprotege.stanford.edu/R8zH2PU6Fm6APEaV21qCsKv"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#apresenta"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#apresenta-uma"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atende"/>
+        <Class IRI="http://webprotege.stanford.edu/Funcionário"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#atende-a-especialidade"/>
+        <Class IRI="http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#avalia"/>
+        <Class IRI="http://webprotege.stanford.edu/R8zH2PU6Fm6APEaV21qCsKv"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#caracteriza-uma"/>
+        <Class IRI="http://webprotege.stanford.edu/RC4tWnH5ELWhrffLOvmeaje"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#consome"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#consulta-com"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#consulta-o"/>
+        <Class IRI="http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#desocupa-um"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#diagnostica-um"/>
+        <Class IRI="http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dá-alta-para"/>
+        <Class IRI="http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#está-em"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#está-em-um"/>
+        <Class IRI="http://webprotege.stanford.edu/RCZT1weaeaWudxADny7M3cW"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#está-em-uma"/>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#faz-dispensação-de"/>
+        <Class IRI="http://webprotege.stanford.edu/R8epTLulMSCM72nuxRLjjOK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#higieniza-um"/>
+        <Class IRI="http://webprotege.stanford.edu/Faxineiro"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#indica-um"/>
+        <Class IRI="http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-pode-ter"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-da-especialidade"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-da-faixa-etária"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-de-atendimento"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-de-cuidados"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-de-encaminhamento"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-de-isolamento"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-de-permanêcia"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-do-gênero"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#leito-é-puerpério"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#medica-um"/>
+        <Class IRI="http://webprotege.stanford.edu/Técnico_De_Enfermagem"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#move-um"/>
+        <Class IRI="http://webprotege.stanford.edu/R8zH2PU6Fm6APEaV21qCsKv"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#observa-um"/>
+        <Class IRI="http://webprotege.stanford.edu/R8zH2PU6Fm6APEaV21qCsKv"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ocupa-um"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#pode-ter"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#possui-uma"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#preenche-um"/>
+        <Class IRI="http://webprotege.stanford.edu/Funcionário"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#prescreve"/>
+        <Class IRI="http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-da-especialidade"/>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-da-faixa-etária"/>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-de-atendimento"/>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-de-cuidados"/>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-de-encaminhamento"/>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-de-isolamento"/>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-de-permanêcia"/>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-do-gênero"/>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#quarto-é-puerpério"/>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#recebe-alta-do"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tem-um"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tem-uma"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-acompanhado-por"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-alocado-por"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-analisado-por"/>
+        <Class IRI="http://webprotege.stanford.edu/RBbRu8qGKztl4y2W0gYTvzr"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-apresentado-por"/>
+        <Class IRI="http://webprotege.stanford.edu/RC4tWnH5ELWhrffLOvmeaje"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-associado-a-uma"/>
+        <Class IRI="#Atendimento"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-atendido-por"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-atribuído-a-um"/>
+        <Class IRI="http://webprotege.stanford.edu/RBranfH6ouzGMl4AlldYAJN"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-avaliado-por"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-caracterizada-por"/>
+        <Class IRI="http://webprotege.stanford.edu/RBagIcLSpGT7TaxNpbXndez"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-consumido-por"/>
+        <Class IRI="http://webprotege.stanford.edu/Medicação"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-da-especialidade"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-da-faixa-etária"/>
+        <Class IRI="http://webprotege.stanford.edu/RpHN5vsm8cG08PHeVwLezi"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-de-atendimento"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-de-cuidados"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-de-encaminhamento"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-de-isolamento"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-de-permanêcia"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-desocupado-por-um"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-diagnosticado-por-um"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-do-gênero"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-feita-em-um"/>
+        <Class IRI="#Internação"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-higienizado-por"/>
+        <Class IRI="http://webprotege.stanford.edu/RiGzUkNl1AvJAIwbU2MXep"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-medicado-por"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-movido-por"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-observado-por"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-ocupado-por-um"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-preenchido-por"/>
+        <Class IRI="http://webprotege.stanford.edu/RBbRu8qGKztl4y2W0gYTvzr"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-prescrita-por"/>
+        <Class IRI="http://webprotege.stanford.edu/Medicação"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-puerpério"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-responsabilidade-do"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#é-responsável-por"/>
+        <Class IRI="http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#acompanha"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#acontece-em-um"/>
+        <Class IRI="http://webprotege.stanford.edu/RBfzWnNgzqJfyj1eMXheu04"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aloca"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#analisa"/>
+        <Class IRI="http://webprotege.stanford.edu/RBbRu8qGKztl4y2W0gYTvzr"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#apresenta"/>
+        <Class IRI="http://webprotege.stanford.edu/RC4tWnH5ELWhrffLOvmeaje"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#apresenta-uma"/>
+        <Class IRI="http://webprotege.stanford.edu/RBagIcLSpGT7TaxNpbXndez"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#atende"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#atende-a-especialidade"/>
+        <Class IRI="#Especialidade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#avalia"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#caracteriza-uma"/>
+        <Class IRI="http://webprotege.stanford.edu/RBagIcLSpGT7TaxNpbXndez"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#consome"/>
+        <Class IRI="http://webprotege.stanford.edu/Medicação"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#consulta-com"/>
+        <Class IRI="http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#consulta-o"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#desocupa-um"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#diagnostica-um"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dá-alta-para"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#está-em"/>
+        <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#está-em-um"/>
+        <Class IRI="http://webprotege.stanford.edu/RiGzUkNl1AvJAIwbU2MXep"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#está-em-uma"/>
+        <Class IRI="http://webprotege.stanford.edu/RDqATM6JOaJEGplAdD7Za4Q"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#faz-dispensação-de"/>
+        <Class IRI="http://webprotege.stanford.edu/Medicação"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#higieniza-um"/>
+        <Class IRI="http://webprotege.stanford.edu/RiGzUkNl1AvJAIwbU2MXep"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#indica-um"/>
+        <Class IRI="http://webprotege.stanford.edu/RaGGXiwqWEE4cQghDniY3b"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-pode-ter"/>
+        <Class IRI="http://webprotege.stanford.edu/R8KZvxSeAE1uUThnBzdqQCE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-da-especialidade"/>
+        <Class IRI="#Especialidade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-da-faixa-etária"/>
+        <Class IRI="#Idade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-de-atendimento"/>
+        <Class IRI="#Tipo_De_Atendimento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-de-cuidados"/>
+        <Class IRI="#Tipo_De_Cuidado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-de-encaminhamento"/>
+        <Class IRI="#Encaminhamento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-de-isolamento"/>
+        <Class IRI="#Isolamento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-de-permanêcia"/>
+        <Class IRI="#Tempo_De_Permanência"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-do-gênero"/>
+        <Class IRI="#Gênero"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#leito-é-puerpério"/>
+        <Class IRI="#Puerpério"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#medica-um"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#move-um"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#observa-um"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ocupa-um"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#pode-ter"/>
+        <Class IRI="http://webprotege.stanford.edu/R8KZvxSeAE1uUThnBzdqQCE"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#possui-uma"/>
+        <Class IRI="#Situação"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#preenche-um"/>
+        <Class IRI="http://webprotege.stanford.edu/RBbRu8qGKztl4y2W0gYTvzr"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prescreve"/>
+        <Class IRI="http://webprotege.stanford.edu/Medicação"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-da-especialidade"/>
+        <Class IRI="#Especialidade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-da-faixa-etária"/>
+        <Class IRI="#Idade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-de-atendimento"/>
+        <Class IRI="#Tipo_De_Atendimento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-de-cuidados"/>
+        <Class IRI="#Tipo_De_Cuidado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-de-encaminhamento"/>
+        <Class IRI="#Encaminhamento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-de-isolamento"/>
+        <Class IRI="#Isolamento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-de-permanêcia"/>
+        <Class IRI="#Tempo_De_Permanência"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-do-gênero"/>
+        <Class IRI="#Gênero"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#quarto-é-puerpério"/>
+        <Class IRI="#Puerpério"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#recebe-alta-do"/>
+        <Class IRI="http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tem-um"/>
+        <Class IRI="#Atendimento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tem-uma"/>
+        <Class IRI="http://webprotege.stanford.edu/RCRMlGWumd5lZSBh7y5yWl8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-acompanhado-por"/>
+        <Class IRI="http://webprotege.stanford.edu/RCiwwnt8hMYpPQW3n2NPrK7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-alocado-por"/>
+        <Class IRI="http://webprotege.stanford.edu/R9fnjDjRJPbtBWPhtz8nDuW"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-analisado-por"/>
+        <Class IRI="http://webprotege.stanford.edu/R8zH2PU6Fm6APEaV21qCsKv"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-apresentado-por"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-associado-a-uma"/>
+        <Class IRI="#Classificação_De_Risco"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-atendido-por"/>
+        <Class IRI="http://webprotege.stanford.edu/Funcionário"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-atribuído-a-um"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-avaliado-por"/>
+        <Class IRI="http://webprotege.stanford.edu/R8zH2PU6Fm6APEaV21qCsKv"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-caracterizada-por"/>
+        <Class IRI="http://webprotege.stanford.edu/RC4tWnH5ELWhrffLOvmeaje"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-consumido-por"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-da-especialidade"/>
+        <Class IRI="#Especialidade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-da-faixa-etária"/>
+        <Class IRI="#Idade"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-de-atendimento"/>
+        <Class IRI="#Tipo_De_Atendimento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-de-cuidados"/>
+        <Class IRI="#Tipo_De_Cuidado"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-de-encaminhamento"/>
+        <Class IRI="#Encaminhamento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-de-isolamento"/>
+        <Class IRI="#Isolamento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-de-permanêcia"/>
+        <Class IRI="#Tempo_De_Permanência"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-desocupado-por-um"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-diagnosticado-por-um"/>
+        <Class IRI="http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-do-gênero"/>
+        <Class IRI="#Gênero"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-feita-em-um"/>
+        <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-higienizado-por"/>
+        <Class IRI="http://webprotege.stanford.edu/Faxineiro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-medicado-por"/>
+        <Class IRI="http://webprotege.stanford.edu/Técnico_De_Enfermagem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-movido-por"/>
+        <Class IRI="http://webprotege.stanford.edu/R8zH2PU6Fm6APEaV21qCsKv"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-observado-por"/>
+        <Class IRI="http://webprotege.stanford.edu/R8zH2PU6Fm6APEaV21qCsKv"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-ocupado-por-um"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-preenchido-por"/>
+        <Class IRI="http://webprotege.stanford.edu/Funcionário"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-prescrita-por"/>
+        <Class IRI="http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-puerpério"/>
+        <Class IRI="#Puerpério"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-responsabilidade-do"/>
+        <Class IRI="http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#é-responsável-por"/>
+        <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tem-idade"/>
+        <Class IRI="http://webprotege.stanford.edu/RpHN5vsm8cG08PHeVwLezi"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <Class IRI="http://webprotege.stanford.edu/RpHN5vsm8cG08PHeVwLezi"/>
+    </DataPropertyDomain>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um leito do quarto possui uma especialidade, o quarto possui a mesma especialidade</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-da-especialidade"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Es"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-da-especialidade"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#Es"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um leito do quarto possui uma faixa etária, o quarto possui o mesma faixa etária</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-da-faixa-etária"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Id"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-da-faixa-etária"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#Id"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um leito do quarto possui um tipo de atendimento, o quarto possui o mesmo tipo de atendimento</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-atendimento"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#At"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-atendimento"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#At"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um leito do quarto possui um tipo de cuidados, o quarto possui o mesmo tipo de cuidados</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-cuidados"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Co"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-cuidados"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#Co"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um leito do quarto possui um tipo de encaminhamento, o quarto possui o mesmo tipo de encaminhamento</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-encaminhamento"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#En"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-encaminhamento"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#En"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um leito do quarto possui um tipo de isolamento, o quarto possui o mesmo tipo de isolamento</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-isolamento"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Is"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-isolamento"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#Is"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um leito do quarto possui um tempo de permanência, o quarto possui o mesmo tempo de permanência</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-permanêcia"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Pa"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-permanêcia"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#Pa"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um leito do uarto possui um gênero, o quarto possui o mesmo gênero</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-do-gênero"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Ge"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-do-gênero"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#Ge"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um leito do quarto possui um tipo de puerpério, o quarto possui o mesmo tipo de puerpério</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-puerpério"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Pu"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-puerpério"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#Pu"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se o quarto possui uma especialidade, os leitos que estão no quarto possuem a mesma especialidade</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-da-especialidade"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#Es"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-da-especialidade"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Es"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se o quarto possui uma faixa etária, os leitos que estão no quarto possuem a mesma faixa etária</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-da-faixa-etária"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#Id"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-da-faixa-etária"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Id"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se o quarto possui um tipo de atendimento, os leitos que estão no quarto possuem o mesmo tipo de atendimento</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-atendimento"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#At"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-atendimento"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#At"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se o quarto possui um tipo de cuidados, os leitos que estão no quarto possuem o mesmo tipo de cuidados</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-cuidados"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#Co"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-cuidados"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Co"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se o quarto possui um tipo de encaminhamento, os leitos que estão no quarto possuem o mesmo tipo de encaminhamento</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-encaminhamento"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#En"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-encaminhamento"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#En"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se o quarto possui um tipo de isolamento, os leitos que estão no quarto possuem o mesmo tipo de isolamento</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-isolamento"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#Is"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-isolamento"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Is"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se o quarto possui um tempo de permanência, os leitos que estão no quarto possuem o mesmo tempo de permanência</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-de-permanêcia"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#Pa"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-permanêcia"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Pa"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se o quarto possui um gênero, os leitos que estão no quarto possuem o mesmo gênero</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-do-gênero"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#Ge"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-do-gênero"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Ge"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se o quarto possui um tipo de puerpério, os leitos que estão no quarto possuem o mesmo tipo de puerpério</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#está-em"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Qu"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#quarto-é-puerpério"/>
+                <Variable IRI="urn:swrl#Qu"/>
+                <Variable IRI="urn:swrl#Pu"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-puerpério"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Pu"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um paciente ocupa um leito então esse leito passa a ter a mesma especialidade do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-da-especialidade"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#Es"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-da-especialidade"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Es"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um paciente ocupa um leito então esse leito passa a ter o mesmo tipo de faixa etária do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-da-faixa-etária"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#Id"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-da-faixa-etária"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Id"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um paciente ocupa um leito então esse leito passa a ter o mesmo tipo de atendimento do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-de-atendimento"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#At"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-atendimento"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#At"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um paciente ocupa um leito então esse leito passa a ter o mesmo tipo de cuidados do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-de-cuidados"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#Co"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-cuidados"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Co"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um paciente ocupa um leito então esse leito passa a ter o mesmo tipo de encaminhamento do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-de-encaminhamento"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#En"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-encaminhamento"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#En"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um paciente de isolamento ocupa um leito então esse leito passa a ter o mesmo tipo de isolamento do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-de-isolamento"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#Is"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-isolamento"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Is"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um paciente ocupa um leito então esse leito passa a ter o mesmo tempo de permanência do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-de-permanêcia"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#Pa"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-de-permanêcia"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Pa"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um paciente ocupa um leito então esse leito passa a ter o mesmo gênero do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-do-gênero"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#Ge"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-do-gênero"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Ge"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se um paciente ocupa um leito então esse leito passa a ter o mesmo tipo de puerpério do paciente</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-puerpério"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#Pu"/>
+            </ObjectPropertyAtom>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#ocupa-um"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#Le"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#leito-é-puerpério"/>
+                <Variable IRI="urn:swrl#Le"/>
+                <Variable IRI="urn:swrl#Pu"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se o paciente é homem então é do sexo masculino</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Homem"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-do-gênero"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <NamedIndividual IRI="#Masculino"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se o paciente é mulher então é do gênero feminino</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Mulher"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-do-gênero"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <NamedIndividual IRI="#Feminino"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se o paciente for urgente então vai direto para a internação</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Urgente"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Internação"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+            <DataPropertyAtom>
+                <DataProperty IRI="#tem-idade"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#Ie"/>
+            </DataPropertyAtom>
+            <DataRangeAtom>
+                <Datatype IRI="#op:numeric-greater-than"/>
+                <Variable IRI="urn:swrl#Ie:17"/>
+            </DataRangeAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-da-faixa-etária"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <NamedIndividual IRI="#Adulto"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Se o tipo do atendimento do paciente é um então o tipo de encaminhamento é o mesmo</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK"/>
+                <Variable IRI="urn:swrl#Pe"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#tem-um"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#At"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#é-de-encaminhamento"/>
+                <Variable IRI="urn:swrl#Pe"/>
+                <Variable IRI="urn:swrl#At"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/Faxineiro</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Funcionário responsável pela higienização das dependências do hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Faxineiro</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Faxineiro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/Funcionário</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pessoas contratadas pelo hospital para fazer os atendimentos aos pacientes e demais funções operacionais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Funcionário</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Funcionário</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/Medicação</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Remédios.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Medicação</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Medicação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://webprotege.stanford.edu/Prescrição</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Prescrição</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R1Hj1UOVuA6PKPwevQgKhJ</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Acomodação temporária e móvel.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R1Hj1UOVuA6PKPwevQgKhJ</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Maca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R5VuoYmWBpfVdZBc8f2tDr</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Paciente está em estado vegetativo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R5VuoYmWBpfVdZBc8f2tDr</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Vegetativo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R71hnKX1jR0A8uK9EPfpt4G</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Prontuario_Do_Paciente</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Local onde fica o leito onde o paciente é internado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7AKDZVeR03ehK1pQ4aSCbU</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Quarto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pessoa que está sendo atendida no hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7KGafCKyYxpL1YRHrkHjJK</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Paciente</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R7N31ukSol7sxxvonZ7EzYZ</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Unidade de Cuidados Especiais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7N31ukSol7sxxvonZ7EzYZ</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">UCE</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R7v6j6vUWKgSUsTGzuvTvRI</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Paciente em estado regular.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7v6j6vUWKgSUsTGzuvTvRI</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Estável</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R7wAVhsL8CW4qpWecTPlkeq</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Paciente em estado grave.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7wAVhsL8CW4qpWecTPlkeq</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Grave</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R7y3eCMiVHGCUPaMA5aEiM9</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dia de hoje.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R7y3eCMiVHGCUPaMA5aEiM9</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hoje</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R8AB9N8HhCrNwsETDWqoKA5</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Paciente em tratamento.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8AB9N8HhCrNwsETDWqoKA5</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Em_Tratamento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R8KZvxSeAE1uUThnBzdqQCE</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Restrições que podem ser consideradas no momento da alocação de leitos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8KZvxSeAE1uUThnBzdqQCE</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Restrição</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R8ULdDF78OhGrcjJDoT5awO</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Leito que não pode ser utilizado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8ULdDF78OhGrcjJDoT5awO</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bloqueado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R8epTLulMSCM72nuxRLjjOK</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Local onde os medicamentos e materiais médicos são armazenados e dispensados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8epTLulMSCM72nuxRLjjOK</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Farmácia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R8jrkwcriq18qTARhvzSIaf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Locais onde os pacientes são atendidos em consultas ambulatoriais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8jrkwcriq18qTARhvzSIaf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sala</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R8nIV8znRxawo7JRkLhojLU</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Funcionário que faz o primeiro atendimento e cadastramento do paciente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8nIV8znRxawo7JRkLhojLU</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Recepcionista</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R8oK14a1iyon9PZJDdNjZzL</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hora em que o fato ocorreu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8oK14a1iyon9PZJDdNjZzL</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Hora</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R8owYoMAD1tQ7iUi85HhkRK</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Local onde é feito o primeiro cadastro do paciente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8owYoMAD1tQ7iUi85HhkRK</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Recepção</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8vzbELvzTrzTunUJAuiavx</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Laudo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R8zH2PU6Fm6APEaV21qCsKv</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Funcionários do hospital que tratam especificamente da saúde do paciente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R8zH2PU6Fm6APEaV21qCsKv</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Profissional_De_Saúde</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R917ihpsrUkOeav3FMevijo</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Unidades de internação genéricas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R917ihpsrUkOeav3FMevijo</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Enfermaria</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/R9fnjDjRJPbtBWPhtz8nDuW</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Funcionário responsável por um grupo de técnicos de enfermagem e pela supervisão dos cuidados de um grupo de pacientes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/R9fnjDjRJPbtBWPhtz8nDuW</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Enfermeiro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Funcionários do hospital com diploma em Medicina, contratados para exercer a profissão.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RB5ZhLPBeuOcWJv06tj0bd1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Médico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RBASQc5DWXevZF18MyDVnqN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Unidade de Tratamento Intensivo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBASQc5DWXevZF18MyDVnqN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">UTI</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RBCF9OkGwwYtMUcAAuQBHA</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Data em que o fato ocorreu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBCF9OkGwwYtMUcAAuQBHA</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RBagIcLSpGT7TaxNpbXndez</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Alteração biológica do estado de saúde de uma pessoa, manifestada por um conjunto de sintomas perceptíveis ou não; enfermidade, mal, moléstia.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBagIcLSpGT7TaxNpbXndez</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Doença</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RBbRu8qGKztl4y2W0gYTvzr</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Documentos gerados durante ou após o atendimento de um paciente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBbRu8qGKztl4y2W0gYTvzr</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Documento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RBfzWnNgzqJfyj1eMXheu04</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Conceitos realcionados a temporalidade dos acontecimentos relacionados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBfzWnNgzqJfyj1eMXheu04</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Conceito_Temporal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RBranfH6ouzGMl4AlldYAJN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Representa estados de pacientes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RBranfH6ouzGMl4AlldYAJN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Estado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RC4tWnH5ELWhrffLOvmeaje</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sinais aos quais o paciente se refere quando fala da sua doença (dor, mal-estar, etc).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RC4tWnH5ELWhrffLOvmeaje</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sintoma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RCFnajknIsNZcGr64aKFsPY</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Momento atual.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCFnajknIsNZcGr64aKFsPY</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Agora</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RCIU0TZBNdrtHO7jyZSxUtB</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Unidades de internação específicas para determinada especialidades, por exemplo: geriatria, pediatria, neurologia, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCIU0TZBNdrtHO7jyZSxUtB</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ala_Especialidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RCKLqMi4gYOEaopI9mDxPe8</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ano em que o fato ocorreu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCKLqMi4gYOEaopI9mDxPe8</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cama onde o paciente é internado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCOR3ynoP8rJUe5cKh2ut9v</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Leito</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RCRMlGWumd5lZSBh7y5yWl8</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Acomodação hospitalar normalmente alocada dentro de um quarto.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCRMlGWumd5lZSBh7y5yWl8</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Cama</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RCUkOjyXIxru8yfpAxDKlH7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dia em que o fato ocorreu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCUkOjyXIxru8yfpAxDKlH7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Dia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RCXYuaw1VXzuIogytgTzVtK</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Passagem que serve de ligação entre as salas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCXYuaw1VXzuIogytgTzVtK</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Corredor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RCZT1weaeaWudxADny7M3cW</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mobiliário pertencente ao hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCZT1weaeaWudxADny7M3cW</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Móvel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RCdCUCKjhTiB4aW6WKqi2G4</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">O leito foi higienizado e está apto para receber novo paciente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCdCUCKjhTiB4aW6WKqi2G4</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Limpo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCheAq6wTEvRhdnYI9u75VK</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Diagnóstico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RCiwwnt8hMYpPQW3n2NPrK7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pessoa que acompanha o paciente em seu atendimento, normalmente familiar ou amigo.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCiwwnt8hMYpPQW3n2NPrK7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Acompanhante</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RCnNG3qINkOMRPn2KsZTMly</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Semana em que o fato ocorreu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCnNG3qINkOMRPn2KsZTMly</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Semana</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RCpZDjdcfpJlPqQcxL7A6p7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Médico em formação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCpZDjdcfpJlPqQcxL7A6p7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Residente</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RCwsHnkazcLdMJviDTd7Dj1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Leito precisa de higienização.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RCwsHnkazcLdMJviDTd7Dj1</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Sujo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RD0yANs0KqWsm3fvx7ro3KN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Funcionário que faz a administração do hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RD0yANs0KqWsm3fvx7ro3KN</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Administrador</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RDitmflYlNleQ3n2nlz1VkP</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Funcionário que zela pela segurança patrimonial e física das pessoas que estão ho hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDitmflYlNleQ3n2nlz1VkP</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Segurança</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RDqATM6JOaJEGplAdD7Za4Q</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Setores onde os pacientes ficam internados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RDqATM6JOaJEGplAdD7Za4Q</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Unidade_Internacao</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RaGGXiwqWEE4cQghDniY3b</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Conjunto de instruções às quais o médico sugere que o paciente se submeta.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RaGGXiwqWEE4cQghDniY3b</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Tratamento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RiGzUkNl1AvJAIwbU2MXep</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Lugares dentro de um hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RiGzUkNl1AvJAIwbU2MXep</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Local</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RmRzjCRkaHJex6QdB8ZHdh</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">O leito possui um paciente internado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RmRzjCRkaHJex6QdB8ZHdh</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ocupado</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RpHN5vsm8cG08PHeVwLezi</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Indivíduos que fazem parte do ecossistema hospitalar.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RpHN5vsm8cG08PHeVwLezi</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Nessa ontologia a classe pessoa representa as pessoas envolvidas no dia a dia de um hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RpHN5vsm8cG08PHeVwLezi</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Pessoa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/Rtpmqi6ZY913MhovtxAq7t</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mês em que o fato ocorreu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Rtpmqi6ZY913MhovtxAq7t</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Mês</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RyXESQ8YKh5SD8ptqMMEAf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">O leito está sem paciente internado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RyXESQ8YKh5SD8ptqMMEAf</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Livre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RzBtUQWKR9o5vWKZkF0iNa</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Paciente que está sem condções de permanecer acordado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RzBtUQWKR9o5vWKZkF0iNa</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Coma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/RzzdMqcvTYclDeVgpeefl6</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Período - intervalo de tmepo em que um evento ocorreu.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/RzzdMqcvTYclDeVgpeefl6</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Intervalo_De_Tempo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://webprotege.stanford.edu/Técnico_De_Enfermagem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Funcionário que trata dos cuidados e medicação do paciente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://webprotege.stanford.edu/Técnico_De_Enfermagem</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Técnico_De_Enfermagem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Ambulatorial</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Atendimento que ocorre via agendamento prévio ou por necessidade emergencial.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Atendimento</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Refere-se aos tipos de atendimentos que o paciente pode ter em um hospital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Classificação_De_Risco</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Classificação dada ao paciente no início do atendimento, muito usada no setor de emergência, para priorizar pacientes mais graves. Baseada no protocolo de Manchester.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eletivo</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Atendimentos agendados previamente, como uma consulta ou uma cirurgia que não precisará de internação inicialmente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Emergente</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Paciente com risco imediato de perder a vida.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Emergência</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Atendimento ambulatorial sem agendamento prévio, por motivo de necessidade urgente  emergente do paciente. Exemplo: atendimentos de parada cardíaca, fratura, etc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Encaminhamento</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Origem do paciente, por exemplo se ele veio da emergência ou se é um paciente eletivo (que possui algum procedimento agendado).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Especialidade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Representa a especialização médica que o médico possui ou que o paciente necessita</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Especialista</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Médicos com especializações em determinadas áreas.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gênero</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Refere-se ao gênero do paciente.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Idade</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Refere-se á faixa etária do paciente</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Internação</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Atendimento no qual o paciente precisa permanecer no hospital por mais de um dia, ocupando um leito.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Isolamento</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Refere-se ao caso de o paciente precisar ficar isolado por algum motivo (ex. isolamento social, isolamento por bactéria de um certo tipo, etc).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Muito_Urgente</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Paciente com risco imediato de perda de membros ou de função de órgãos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Não_Urgente</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Paciente sem risco imediato de agravo à saúde.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pouco_Urgente</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Paciente com baixo risco de agravo imediato à saúde.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Puerpério</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Refere-se ás pacientes que tiveram partos ou abortos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Situação</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Representa a situação dos leitos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tempo_De_Permanência</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Refere-se ao tempo que é previsto para o paciente ficar internado.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tipo_De_Atendimento</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Refere-se ao tipo de atendimento que o paciente necessita (ex. cirúrgico ou clínico).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Tipo_De_Cuidado</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Refere-se ao tipo de cuidado de que o paciente necessita.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Urgente</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Paciente com condição que pode se agravar se não for atendido.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
