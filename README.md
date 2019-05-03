@@ -5,3 +5,5 @@ The file ONTO_PROPERTIES.pdf contains the ontology properties translated into En
 
 The OWL file of the ontology is Bed-allocation.owl.
 And in the Ontology Browser folder, there is an OWLDoc of the ontology.
+
+![Hospital Bed Allocation Ontology](https://github.com/DeboraEngelmann/Hospital-Bed-Allocation-Ontology/blob/master/bed-allocation-ontology.png)
