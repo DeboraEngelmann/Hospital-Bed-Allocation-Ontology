@@ -1,6 +1,8 @@
 # Hospital-Bed-Allocation-Ontology
 
 By [Débora Cristina Engelmann](https://github.com/DeboraEngelmann) e  [Júlia Colleoni Couto](https://github.com/juliacolleoni)
+
+
 An ontology, with classes, relationships, individuals, and rules to be used in the specific scenario of hospital bed allocation developed in Portuguese.
 
 The file ONTO_PROPERTIES.pdf contains the ontology properties translated into English and in the file ONTO_RULES.pdf, the rules are translated into English.
