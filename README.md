@@ -1,6 +1,8 @@
 # Hospital-Bed-Allocation-Ontology
 
-By [Débora Cristina Engelmann](https://github.com/DeboraEngelmann) e  [Júlia Colleoni Couto](https://github.com/juliacolleoni)
+By [Débora Cristina Engelmann](https://github.com/DeboraEngelmann),
+[Júlia Colleoni Couto](https://github.com/juliacolleoni) e
+[Rafael H. Bordini](https://github.com/rbordini)
 
 
 An ontology, with classes, relationships, individuals, and rules to be used in the specific scenario of hospital bed allocation developed in Portuguese.
